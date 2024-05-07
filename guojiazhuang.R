@@ -2,7 +2,7 @@
 # Title: guojiazhuang
 # Date: March 1, 2022
 # Updated: October 25, 2023
-# Author: Yuwei Zhou 周毓葦
+# Author: Yuwei Zhou
 # Source: 
 #     CSSA-IA. 1998. Anyang Yinxu Guojiazhuang Shangdai Muzang 安陽殷墟郭家莊商代墓葬.
 #         Beijing: Zhongguo dabaikequanshu chubanshe. 
@@ -50,7 +50,7 @@ showtext_auto()
 # Output: 郭家莊墓葬形制31.xlsx
 
 # Read in and clean up Guojiazhuang_muzang
-setwd("/Users/zhouyuwei/Desktop/Guojiazhuang")
+#setwd("")
 guojiazhuang_muzang_raw <-
   read_excel("./郭家莊墓葬copy.xlsx",
              col_types = c(rep("text", 25)))
